@@ -1,0 +1,266 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.navbar-block {
+  display: flex;
+  background-color: white; }
+
+.navbar-block.layout {
+  position: relative;
+  min-height: 59px;
+  flex-grow: 1; }
+
+.navbar-subtitle {
+  font: 23px/1.2 "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #22262a;
+  letter-spacing: 0.29px; }
+  @media (max-width: 1199px) {
+    .navbar-subtitle {
+      font-size: 21px;
+      text-align: left; } }
+  @media (max-width: 991px) {
+    .navbar-subtitle {
+      font-size: 20px; } }
+  @media (max-width: 767px) {
+    .navbar-subtitle {
+      font-size: 18px; } }
+  @media (max-width: 479px) {
+    .navbar-subtitle {
+      font-size: 17px; } }
+  @media (max-width: 383px) {
+    .navbar-subtitle {
+      font-size: 16px; } }
+
+.navbar-subtitle.layout {
+  position: absolute;
+  top: 14px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 17px;
+  left: 34px;
+  flex-grow: 1;
+  right: 34px; }
+  @media (max-width: 1199px) {
+    .navbar-subtitle.layout {
+      top: 12px;
+      bottom: 15px;
+      left: 30px;
+      right: 30px; } }
+  @media (max-width: 991px) {
+    .navbar-subtitle.layout {
+      top: 10px;
+      bottom: 13px;
+      left: 25px;
+      right: 25px; } }
+  @media (max-width: 767px) {
+    .navbar-subtitle.layout {
+      top: 9px;
+      bottom: 11px;
+      left: 21px;
+      right: 21px; } }
+  @media (max-width: 575px) {
+    .navbar-subtitle.layout {
+      top: 8px;
+      bottom: 10px;
+      left: 19px;
+      right: 19px; } }
+  @media (max-width: 479px) {
+    .navbar-subtitle.layout {
+      top: 7px;
+      bottom: 9px;
+      left: 17px;
+      right: 17px; } }
+  @media (max-width: 383px) {
+    .navbar-subtitle.layout {
+      bottom: 8px;
+      left: 15px;
+      right: 15px; } }
+
+.navbar-navbar {
+  display: flex; }
+
+.navbar-navbar.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  flex-grow: 1;
+  margin: 0px 0px 1px; }
+
+.navbar-group {
+  display: flex; }
+
+.navbar-group.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 60.33%;
+  margin: 13px 3.5% 13px 36.17%; }
+  @media (max-width: 1199px) {
+    .navbar-group.layout {
+      margin: 11px 3.5% 11px 36.17%; } }
+  @media (max-width: 991px) {
+    .navbar-group.layout {
+      margin: 10px 3.5% 10px 36.17%; } }
+  @media (max-width: 767px) {
+    .navbar-group.layout {
+      margin: 8px 3.5% 8px 36.17%; } }
+  @media (max-width: 575px) {
+    .navbar-group.layout {
+      margin: 7px 3.5% 7px 36.17%; } }
+  @media (max-width: 383px) {
+    .navbar-group.layout {
+      margin: 6px 3.5% 6px 36.17%; } }
+
+.navbar-decorator {
+  background: var(--src) center center/contain no-repeat; }
+
+.navbar-decorator.layout {
+  position: absolute;
+  top: -15px;
+  height: 61px;
+  left: 1px;
+  width: 329px; }
+
+.navbar-block2 {
+  display: flex; }
+
+.navbar-block2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 100%;
+  margin: 0px auto; }
+  @media (max-width: 767px) {
+    .navbar-block2.layout {
+      margin: 0px 0px; } }
+
+.navbar-text-body {
+  font: 14px/1.2 "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #b3b3b3;
+  letter-spacing: 0.18px; }
+  @media (max-width: 991px) {
+    .navbar-text-body {
+      font-size: 13px;
+      text-align: left; } }
+  @media (max-width: 575px) {
+    .navbar-text-body {
+      font-size: 12px; } }
+
+.navbar-text-body.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 5px 0px 10px; }
+  @media (max-width: 1199px) {
+    .navbar-text-body.layout {
+      margin: 5px 0px 9px; } }
+  @media (max-width: 991px) {
+    .navbar-text-body.layout {
+      margin: 5px 0px 7px; } }
+  @media (max-width: 767px) {
+    .navbar-text-body.layout {
+      margin: 5px 0px 6px; } }
+  @media (max-width: 479px) {
+    .navbar-text-body.layout {
+      margin: 5px 0px; } }
+
+.navbar-block2-spacer {
+  flex: 0 1 33px; }
+
+.navbar-block2-spacer1 {
+  flex: 0 1 30px; }
+
+.navbar-block2-spacer2 {
+  flex: 0 1 221px; }
+
+.navbar-highlights1 {
+  display: flex;
+  justify-content: center;
+  font: 18px/1.2 "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #22262a;
+  text-align: center;
+  letter-spacing: 0.23px; }
+  @media (max-width: 1199px) {
+    .navbar-highlights1 {
+      font-size: 17px;
+      text-align: center; } }
+  @media (max-width: 991px) {
+    .navbar-highlights1 {
+      font-size: 16px; } }
+  @media (max-width: 767px) {
+    .navbar-highlights1 {
+      font-size: 15px; } }
+  @media (max-width: 479px) {
+    .navbar-highlights1 {
+      font-size: 14px; } }
+
+.navbar-highlights1.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 4px 0px 6px; }
+
+.navbar-block2-spacer3 {
+  flex: 0 1 34px; }
+
+.navbar-block2-item {
+  display: flex;
+  position: relative;
+  flex: 0 1 89px; }
+
+.navbar-block3 {
+  display: flex; }
+
+.navbar-block3.layout {
+  position: relative;
+  height: 32px;
+  flex-grow: 1; }
+
+.navbar-block4 {
+  display: flex;
+  background-color: #e84545;
+  border-radius: 15.5px 15.5px 15.5px 15.5px; }
+
+.navbar-block4.layout {
+  position: absolute;
+  top: 0px;
+  height: 31px;
+  width: 98px;
+  right: -9px; }
+
+.navbar-highlights {
+  display: flex;
+  justify-content: center;
+  font: 18px/1.2 "IBM Plex Sans", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.23px; }
+  @media (max-width: 1199px) {
+    .navbar-highlights {
+      font-size: 17px;
+      text-align: center; } }
+  @media (max-width: 991px) {
+    .navbar-highlights {
+      font-size: 16px; } }
+  @media (max-width: 767px) {
+    .navbar-highlights {
+      font-size: 15px; } }
+  @media (max-width: 479px) {
+    .navbar-highlights {
+      font-size: 14px; } }
+
+.navbar-highlights.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 4px auto 0px; }
